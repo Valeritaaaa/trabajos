@@ -4,14 +4,14 @@ public class ElectronicProduct extends Product implements Returnable {
         super(name, price, status);
     }
 
-    @Override
+   @Override
     public double calculateDiscount() {
         return getPrice() * 0.02;
     }
 
-    @Override
-    public boolean canBeReturned(int daysSincePurchase) {
-        return daysSincePurchase <= 15;
+   @Override
+   public boolean canBeReturned(int daysSincePurchase) {
+       return daysSincePurchase <= 15;
     }
 
 }
