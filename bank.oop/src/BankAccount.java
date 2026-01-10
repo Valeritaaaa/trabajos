@@ -12,6 +12,22 @@ public class BankAccount {
         this.saldo = saldo; 
     }
 
+    public String getTituloCuenta(){
+        return tituloCuenta; 
+    }
+
+    public int getSaldo(){
+        return saldo; 
+    }
+
+    public void setTituloCuenta(String tituloCuenta){
+        this.tituloCuenta = tituloCuenta; 
+    }
+
+    public void setSaldo(int saldo){
+        this.saldo = saldo;
+    }
+
     void depositarDinero(int dineroIngresado){
         if(dineroIngresado > 0){
             saldo+= dineroIngresado; 
