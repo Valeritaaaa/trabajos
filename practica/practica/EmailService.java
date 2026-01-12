@@ -1,5 +1,6 @@
+package practica;
 public class EmailService {
-    public void EmailService(String message){
+    public void sendEmail(String message){
         System.out.println("Sending email" + message);
     }
 }

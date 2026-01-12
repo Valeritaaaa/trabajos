@@ -1,6 +1,6 @@
+package practica;
 public class Person {
     private String name; 
-    private String email; 
     private EmailService emailService;
 
     Person(){
@@ -11,7 +11,7 @@ public class Person {
         this.emailService = emailService;
         Alto acoplamiento
     } */
-    Person(emailService emailService){
+    Person(EmailService emailService){
         this.emailService = emailService;
     }
 
@@ -26,7 +26,4 @@ public class Person {
     public void setName(String name){
         this.name = name; 
     }
-
-
-    
 }

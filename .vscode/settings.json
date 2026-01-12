@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "bank.oop/src",
+        ".vscode/practica",
+        ".vscode/operadorTernario",
+        "practica/practica"
+    ]
+}
